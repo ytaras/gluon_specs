@@ -18,11 +18,6 @@ log = "0.4"
 env_logger = "0.6"
 failure = "0.1"
 
-gluon = { path = "../gluon" }
-gluon_vm = { path = "../gluon/vm" }
-gluon_codegen = { path = "../gluon/codegen" }
-
-[dev-dependencies]
-amethyst = { version = "0.15.0", default-features = false, features = ["animation", "audio", "locale", "renderer"] }
-amethyst_rendy = { version = "0.5", features = ["vulkan"] }
-walkdir = "2"
+gluon = "0.16.1"
+gluon_vm = "0.16.1"
+gluon_codegen = "0.16.1"
